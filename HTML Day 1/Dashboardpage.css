@@ -1,0 +1,143 @@
+body{
+    background-color: #252b42;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    width:auto;
+    height:100px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 50px;
+}
+.bn{
+    width: 30%;
+    font-size:50px;
+    margin-top:-23px;
+}
+li{
+    height:50px;
+    width:auto;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+.img1,.img2,.img3{
+    width:100px;
+    height:100px;
+}
+.float-right{
+    margin-left: 190px;
+}
+.float-right1{
+    color:white;
+    background-color:#23a6f0;
+    border-radius: 3px 3px 3px 3px; 
+    width:80px;
+    height:30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+.pg{
+    text-align: right;
+    float: right;
+}
+h5{
+    color:skyblue;
+    font-size:20px;
+    margin-left: 30px;
+}
+h6{
+    color:white;
+    font-size: 30px;
+    margin-left: 80px;
+}
+h3{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    margin-left: 35px;
+    height:100px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap:0px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.box-1{
+    justify-content: space-between;
+    text-align: center;
+    gap:3px;
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.box-2{
+    margin-left: 20px;
+    text-align: center;
+    gap:3px;
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.box-3{
+    margin-left: 20px;
+    text-align: center;
+    gap:3px;
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.Quote{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    height:40px;
+    text-align: center;
+    background-color:#23a6f0;
+    border: 2px red;
+    border-radius: 3px 3px 3px 3px; 
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+.Learn-More{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    height:40px;
+    text-align: center;
+    background-color:none;
+    color:#23a6f0;
+    border:2px solid #23a6f0;
+    border-radius: 3px 3px 3px 3px; 
+    align-items: center;
+    justify-content: center;
+}
+.q{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.Market,.online,.Books{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h2{
+    margin-top: 20px;
+}  
