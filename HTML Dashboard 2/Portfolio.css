@@ -1,0 +1,88 @@
+.first{
+    width:auto;
+    height:auto;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    width:auto;
+    height:100px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+li{
+    height:50px;
+    width:auto;
+    margin-right: 90px;
+    font-size: 20px;
+    color:white;
+}
+body{
+    background-color: #0F5278;
+}
+.websol{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#3caea3;
+    padding-left: 120px;
+}
+.webdes{
+    color:white;
+    font-size:20px;
+    padding-left:120px;
+}
+.buy-now{
+    width:140px;
+    height:40px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.get-started{
+        display: flex;
+        flex-direction: row;
+        width:200px;
+        height:40px;
+        text-align: center;
+        background-color:none;
+        color:white;
+        border:2px solid black;
+        border-radius: 3px 3px 3px 3px; 
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+}
+.brandname{
+    width:320px;
+    margin-left: 31px;
+    font-size: 30px;
+    margin-top: -8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1{
+    border: 2px solid black;
+    border-radius: 25px;
+    width:450px;
+    height:450px;
+    margin-left:300px;
+}
+li:hover{
+    color:#3caea3;
+}
+.brandname:hover{
+    color:white;
+}
+.buy-now:hover{
+    color:#3caea3;
+}
+.get-started:hover{
+    color:#3caea3;
+}
