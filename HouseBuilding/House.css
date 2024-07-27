@@ -1,0 +1,71 @@
+.head{
+    height:90px;
+    width:auto;
+    background-color:black;
+}
+.pic{
+    display:flex;
+    height:4px;
+    width:2px;
+    margin-left: 80px; 
+    color:white; 
+    font-size: 30px;
+}
+
+.icon{
+    width:70;
+    height:70;
+    margin-top: 10px;
+}
+h2{
+    color: white; 
+    margin-top: 220px; 
+    margin-left: 170px; 
+    font-size: 50px;
+}
+.bg{
+    background-image: url('background.jpg'); 
+    width: auto;
+    height: 705px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.indexbuild{
+    display: flex;
+}
+.t{
+    margin-top: 35px;
+}
+.front{
+    height:500px; 
+    margin-left:120px; 
+    margin-top: 50px
+}
+.home,.design,.interior,.services,.login,.signup{
+    color:white;
+    float:right;  
+    width:10%; 
+    margin-top:30px; 
+    font-size: 20px
+}
+
+.services:hover,.home:hover,.design:hover,.interior:hover,.signup:hover,.login:hover{
+    color:#808080;
+}
+
+body{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color:snow;
+}
+.topbar{
+    width:auto;
+    height:90px;
+    text-align: center;
+    background-color: black;
+    position:relative;
+}
+
+
